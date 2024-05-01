@@ -1,0 +1,173 @@
+/* Styles pour l'en-tête */
+.header {
+    background-color: #007bff; 
+    color: #fff; 
+    padding: 20px;
+    border: 1px solid #fff;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-title {
+    font-size: 28px;
+    margin: 0;
+}
+
+.header-subtitle {
+    font-size: 18px;
+    font-style: italic;
+    margin: 0;
+}
+
+.header-description {
+    font-size: 16px;
+    margin: 0;
+}
+
+.header-nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.header-nav ul li {
+    margin-right: 20px;
+}
+
+.header-nav ul li:last-child {
+    margin-right: 0;
+}
+
+.header-nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.header-nav ul li a:hover {
+    color: #ffcc00; /* Couleur jaune pour le survol */
+}
+
+.header-photo img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 3px solid #fff; /* Bordure blanche */
+}
+
+.section {
+    background-color: #f8f9fa;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center; 
+}
+
+.section h2 {
+    color: #007bff;
+    font-size: 24px;
+}
+
+.section p {
+    color: #555;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+#travail {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+}
+
+.project-thumbnails {
+    display: flex;
+    flex: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 10px;
+    margin-top: 30px;
+    margin-left: 42%;
+}
+
+.project-thumbnail {
+    text-align: center;
+    margin: 0 5px;
+}
+
+.project-thumbnail img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.project-thumbnail h3 {
+    margin-top: 10px;
+}
+
+.project-thumbnail button {
+    margin-top: 10px;
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.project-thumbnail button:hover {
+    background-color: #0056b3;
+}
+
+.thumbnail-image {
+    max-width: 100px; 
+    transition: max-width 0.5s
+}
+
+.project-thumbnail:hover .thumbnail-image,
+.project-thumbnail:focus .thumbnail-image {
+    max-width: 500px; 
+}
+
+
+.footer {
+    background-color: #333; /* Couleur de fond */
+    color: #fff; /* Couleur du texte */
+    padding: 20px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.footer-nav ul li:last-child {
+    margin-right: 0;
+}
+
+.footer-contact ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-copyright {
+    text-align: center;
+}
+
